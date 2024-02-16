@@ -1,0 +1,105 @@
+
+/*setting margins and paddings....... */
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* applying style to the body..... */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color:grey;
+    color: #333;
+}
+
+/* applying style to the header........ */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+}
+
+/* applying styling to the main section */
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+/* Styling section headers */
+h2 {
+    margin-top: 20px;
+    font-size: 1.5em;
+    color: #333;
+}
+
+/* Styling article content */
+#lyrics {
+    margin-top: 20px;
+}
+
+#lyrics h2 {
+    color: #333;
+}
+
+#lyrics p {
+    margin-bottom: 10px;
+}
+
+/* Styling footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+/* Copyright text */
+footer small {
+    font-size: 0.8em;
+}
+
+/* Link styles */
+a {
+    color: #007bff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #0056b3;
+}
+
+/* Styling the header title */
+h1 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+/* Styling for hover effects on sections */
+section {
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+    transition: transform 0.3s ease;
+}
+
+/* Styling for the lyrics article */
+#lyrics {
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 80%;
+    max-width: 800px;
+    transition: box-shadow 0.3s ease;
+}
+
+#lyrics:hover {
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
